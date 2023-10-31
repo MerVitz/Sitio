@@ -1,0 +1,171 @@
+body {
+    margin: 0;
+    margin-top: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style:normal;
+    font-display: swap;
+    font-stretch: extra-condensed;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+     
+}   
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+        
+}
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s  ;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+.nav-links{
+    position: absolute;
+    background: transparent;
+    width: 180vh;
+    height: 10vh;
+    top: 0;
+    text-align: right;     
+    z-index: 2;
+    transition: 1s;
+}
+header {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 7.2%;
+    line-height: 50px;
+    background-color: rgb(20, 102, 73);
+}
+
+header * {
+    display: unset;
+    height: 50px;
+}
+
+header ul {
+    padding: 0;
+}
+
+header li {
+    margin-left: 20px;
+}
+
+section {
+    height: 80vh;
+    border: 1px solid black;
+    border-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    
+    background-size: cover; /* Add this line */
+    background-position: center ; /* Add this line */
+    background-repeat: no-repeat; /* Add this line */
+    background-attachment: fixed; /* Add this line */
+}
+#course table{
+    table-layout: auto;
+}
+
+#hero .profile-img {
+    height: 20vh;
+    width: px;
+    border-radius: 50%;
+
+}
+
+footer {
+    text-align: center;
+    padding: 50px;
+    color:rgba(255, 64, 0, 0.81);
+    background-color: rgb(17, 4, 100);
+}
+
+#hero h1 {
+    font-size: 3em;
+    color:rgb(22, 15, 72)
+}
+
+section a .contact{
+    display: inline-flex;
+    text-decoration: none;
+    color: #221da0;
+    border: transparent                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             ;
+    padding: 20px 20px;
+    font-size: 20px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+
+}
+
+.click-btn:hover{
+    border: 1px solid #f44336;
+  background: #119e4a;
+      transition: 1s; 
+  }
+section h2 {
+    font-size: 2.5em;
+    color:brown
+}
+
+section h3 {
+    font-size: 1.5em;
+    color:brown
+}
+#hero p {
+    text-align: left;
+    color:#592f2f;
+}
+table {
+    border-radius: 2px;
+    table-layout: auto;
+    width:50%;
+    border: 3px solid purple;
+    
+}
+table th, td{
+    border: 1px solid rgb(102, 128, 0);
+}
+
+header a {
+    text-decoration: underline;
+    text-transform: capitalize;
+    text-shadow: 10cm;
+    color: rgb(64, 23, 139);
+}
+
+/* Add everything below here */
+
+#hero {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('images (11).jpeg');
+
+}
+
+#about {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('images (12).jpeg');
+}
+
+#contact {
+    background-image: linear-gradient(rgb(255, 255, 255,0.75),rgba(255,255,255,0.75)), url('images (14).jpeg');
+}
