@@ -7,7 +7,7 @@ body {
 }
 
 header, footer {
-    background-color: #333;
+    background-color: #797777;
     color: #fff;
     padding: 1rem;
     text-align: center;
@@ -17,7 +17,18 @@ header h1 {
     margin: 0;
 }
 
-#about, #projects, #contact, #skill-set {
+#about{
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;           /* Make this a flex container */
+    align-items: center;     /* Vertically center children */
+    gap: 20px;
+}
+
+
+#projects, #contact, #skill-set {
     margin: 20px;
     padding: 20px;
     background-color: #fff;
@@ -54,7 +65,7 @@ input, textarea {
 
 button {
     padding: 10px 20px;
-    background-color: #333;
+    background-color: #797777;
     color: #fff;
     border: none;
     border-radius: 4px;
@@ -73,9 +84,11 @@ button:hover {
     margin-right: 20px;
     max-width: 150px;
     clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-    transition: box-shadow 0.5s ease; /* for smooth shadow transition on hover */
+    transition: box-shadow 0.5s ease;
     border-radius: 50%;
-    box-shadow: 0 0 20px rgba(0, 0, 255, 0.5); /* Add a neon blue glow */
+    box-shadow: 0 0 20px rgba(0, 0, 255, 0.5);
+    max-width: 100%;
+    display: block;
 }
 
 /* Neon Blue Glow on Hover */
@@ -108,13 +121,9 @@ button:hover {
     padding: 10px;
 }
 
-#projects th, #skill-set th {
-    background-color: #333;
+#projects th, #skill-set th, td {
+    background-color: #797777;
     color: #fff;
-}
-
-#projects th, #skill-set th, #projects td, #skill-set td {
-    text-align: left;
 }
 
 #projects tr:nth-child(even), #skill-set tr:nth-child(even) {
@@ -124,3 +133,8 @@ button:hover {
 #projects tr:nth-child(odd), #skill-set tr:nth-child(odd) {
     background-color: #fff;
 }
+
+.Me {
+    flex: 1;
+}
+
