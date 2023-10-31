@@ -7,19 +7,10 @@
     <link rel="stylesheet" href="home.css">
 </head>
 <body>
-    <header>
-        <h1>Welcome to Our Website</h1>
-    </header>
-
     <nav>
-        <ul>
-            //This are the links to our different pages.
-            <li><a href="vitz.html">Vitz</a></li>
-            <li><a href="simon.html">Simon</a></li>
-            <li><a href="steve.html">Steve</a></li>
-            <li><a href="moses.html">Moses</a></li>
-            <li><a href="mercy.html">Mercy</a></li>
-        </ul>
+        <header>
+            <h1>The Sitio</h1>
+        </header>
     </nav>
 
     <section>
@@ -37,33 +28,67 @@
             </thead>
             <tbody>
                 <tr>
-                    <td>Moses Ondeng’i</td>
+                    <td>
+                        <div class="popup-container">
+                            <a id="nlink" href="moses.html">Moses Ondeng'i</a>
+                            <div class="popup">
+                              <span>You want to find more about Moses? You can read <a href="moses.html">more</a></span>
+                            </div>
+                          </div>
+                    </td>
                     <td>DevOps Engineer</td>
-                    <td><a href="https://github.com/MosesOndengi" target="_blank">MosesOndengi</a></td>
+                    <td><a href="https://github.com/MosesOndengi" target="_blank">My GitHub</a></td>
                     <td>+254115291627</td>
                 </tr>
                 <tr>
-                    <td>Mercy Achieng</td>
+                    <td>
+                        <div class="popup-container">
+                            <a id="nlink" href="mercy.html">Mercy Achieng</a>
+                            <div class="popup">
+                              <span>You want to find more about Mercy? You can read <a href="mercy.html">more</a></span>
+                            </div>
+                          </div>
+                    </td>
                     <td>UX, UI designer</td>
-                    <td><a href="https://github.com/OkeyoMercy" target="_blank">OkeyoMercy</a></td>
+                    <td><a href="https://github.com/OkeyoMercy" target="_blank">My GitHub</a></td>
                     <td>+254795748765</td>
                 </tr>
                 <tr>
-                    <td>Simon Muthungu</td>
+                    <td>
+                        <div class="popup-container">
+                        <a id="nlink" href="simon.html">Simon Muthungu</a>
+                        <div class="popup">
+                          <span>You want to find more about Simon? You can read <a href="simon.html">more</a></span>
+                        </div>
+                      </div>
+                    </td>
                     <td>Machine Learning Engineer</td>
-                    <td><a href="https://github.com/SimonMuthungu" target="_blank">SimonMuthungu</a></td>
+                    <td><a href="https://github.com/SimonMuthungu" target="_blank">My GitHub</a></td>
                     <td>+254758958016</td>
                 </tr>
                 <tr>
-                    <td>Stephen Ochieng</td>
+                    <td>
+                        <div class="popup-container">
+                            <a id="nlink" href="steve.html">Stephen Ochieng</a>
+                            <div class="popup">
+                              <span>You want to find more about Stephen? You can read <a href="steve.html">more</a></span>
+                            </div>
+                          </div>                    </td>
                     <td>Data Analyst</td>
-                    <td><a href="https://github.com/Stevocy" target="_blank">Stevocy</a></td>
+                    <td><a href="https://github.com/Stevocy" target="_blank">My GitHub</a></td>
                     <td>+254793050691</td>
                 </tr>
                 <tr>
-                    <td>Amakalu Vitalis</td>
+                    <td>
+                        <div class="popup-container">
+                            <a id="nlink" href="vitz.html">Amakalu Vitalis</a>
+                            <div class="popup">
+                              <span>You want to find more about Mervitz? You can read <a href="vitz.html">more</a></span>
+                            </div>
+                          </div>
+                        </td>
                     <td>Cloud Engineer</td>
-                    <td><a href="https://github.com/MerVitz" target="_blank">MerVitz</a></td>
+                    <td><a href="https://github.com/MerVitz" target="_blank">My GitHub</a></td>
                     <td>+254743720033</td>
                 </tr>
             </tbody>
@@ -78,11 +103,31 @@
 
     <section>
         <h2>Contact Us</h2>
-        <p>Contact information can come here, such as an email address or phone number.</p>
+        <p>If you have any questions or need assistance, feel free to contact us at:</p>
+        <p>Email: <a href="mailto:codecraft202@gmail.com">codecraft202@gmail.com</a></p>
+        <form>
+            <label for="subscribe">Subscribe to our newsletter:</label>
+            <input type="checkbox" id="subscribe" name="subscribe">
+            <br>
+            <label for="source">Where did you hear about us?</label>
+            <select id="source" name="source">
+              <option value="word_of_mouth">Told by a friend.</option>
+              <option value="social_media">LinkedIn.</option>
+              <option value="internet_search">Instagram.</option>
+              <option value="Twitter">Twitter.</option>
+              <option value="Facebook">Facebook</option>
+              <option value="From Our Client">From our Client.</option>
+            </select>
+            <br>
+        
+          </form>
     </section>
 
     <footer>
         <p>&copy; 2023 Sitio. All rights reserved.</p>
     </footer>
+    <script>
+
+    </script>
 </body>
 </html>
