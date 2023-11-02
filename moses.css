@@ -133,9 +133,16 @@ section h3 {
     font-size: 1.5em;
     color:brown
 }
-#hero p {
+#hero  {
     text-align: left;
-    color:#592f2f;
+    display: inline-block;
+}
+#hero img{
+    position:relative;
+    display: inline;
+    right: px;
+    left:10vh;
+    top:12px;
 }
 table {
     border-radius: 2px;
