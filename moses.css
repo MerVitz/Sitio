@@ -1,7 +1,7 @@
 body {
     margin: 0;
     margin-top: 50px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Arial, sans-serif;
     font-style:normal;
     font-display: swap;
     font-stretch: extra-condensed;
@@ -9,8 +9,7 @@ body {
 .nav-links{
     flex: 1;
     text-align: right;
-     
-}   
+}
 .nav-links ul li{
     list-style: none;
     display: inline-block;
@@ -41,7 +40,7 @@ body {
     width: 180vh;
     height: 10vh;
     top: 0;
-    text-align: right;     
+    text-align: right;
     z-index: 2;
     transition: 1s;
 }
@@ -53,7 +52,7 @@ header {
     right: 0;
     height: 7.2%;
     line-height: 50px;
-    background-color: rgb(20, 102, 73);
+    background-color: #797777;
 }
 
 header * {
@@ -97,8 +96,8 @@ section {
 footer {
     text-align: center;
     padding: 50px;
-    color:rgba(255, 64, 0, 0.81);
-    background-color: rgb(17, 4, 100);
+    color:aliceblue;
+    background-color: #797777;
 }
 
 #hero h1 {
