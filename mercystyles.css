@@ -1,0 +1,127 @@
+header{
+    color: rgb(68, 173, 8);
+    text-align: center;
+    background-color: black;
+    height: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+   
+}
+body{
+  
+  
+    background-color: rgba(255, 255, 255, 0);
+    background-size: cover;
+    background-repeat:no-repeat ;
+    background-position: center;
+}
+.centered-background-image {
+   
+   
+  }
+  
+h1{
+    color: rgb(26, 211, 29);
+}
+section {
+    text-align: center;
+    color: rgb(16, 92, 27);
+    background-image: url('images/domenico-loia-hGV2TfOh0ns-unsplash.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+nav{
+    color: rgb(6, 6, 6);
+    background-color: rgb(8, 8, 8);
+    width: 15%;
+   
+    
+}
+/* nav.ul.li{
+    text-decoration-color: yellowgreen;
+}
+header{s
+    background-color: rgba(2, 44, 2, 0.74);
+}
+section {
+    background-color: rgba(2, 44, 2, 0.749);
+} */
+
+p{
+    font-size: 110%;
+}
+footer{
+    text-align: center;
+    color: rgb(7, 91, 7);
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: black;
+    margin-bottom: 5%;
+    height: 50%;
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width:100%;
+}
+.archievements{
+    background-color:black;
+    height: 20%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+   
+}
+.early-life{
+    color: rgb(5, 122, 15);
+    background-color: black;
+    height: 20%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+   
+}
+.milestones{
+    margin-top: 10%;
+}
+.interests{
+    background-color:black;
+    height: 20%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-top: 5%;
+  
+
+}
+.values{
+    background-color:black;
+    height: 20%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-top: 5%;
+  
+}
+form {
+    background-color:black;
+    height: 20%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-bottom: 5%;
+    color: rgb(16, 92, 27);
+
+}
+.footer-social {
+    color: blueviolet;
+}
+h2{
+    color: rgb(26, 211, 29);
+}
